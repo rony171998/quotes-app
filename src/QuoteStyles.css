@@ -1,0 +1,28 @@
+.quotes{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20%;
+    background-color: #ffff;
+    box-shadow: 10px 10px 10px;
+    width: auto;
+    border-radius: 20px;
+}
+.quotes .text{
+    text-align: center;
+}
+.quotes .author{
+    text-align: right;
+}
+.next{
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    background-color: #ffff;
+    margin-left: 90%;
+}
+i{
+    font-size: 50px;
+}

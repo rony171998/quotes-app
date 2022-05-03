@@ -1,6 +1,87 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 30px;
+  margin-right: 200px;
+  
 }
+.App .misDatos{
+  background: rgb(143, 230, 143);
+  width: 300px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card{
+  background: rgb(143, 230, 143);
+  width: 300px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+  margin: 10px;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: #61dafb;
+}
+.yellow{
+  background-color: yellow;
+}
+.green{
+  background-color: green;
+}
+.light{
+  border-style: solid;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+.on{
+  background-color: yellow;
+  border-style: solid;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+.off{
+  background-color: grey;
+  border-style: solid;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.manageruser{
+  
+  background-color: aliceblue;
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px ;
+  margin-left: 40%;
+}
+.manageruser div{
+  text-align: left;
+  margin: 15px;
+}
+.manageruser img{
+  border-radius: 50%;
+}
+.manageruser button{
+  border-radius: 100%;
+  background-color: greenyellow;
+  border-style: none;
+  width: 40px;
+  height: 40px;
+}
+
+
 
 .App-logo {
   height: 40vmin;
